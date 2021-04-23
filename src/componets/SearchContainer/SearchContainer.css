@@ -1,0 +1,43 @@
+#search-container{
+    width: 100%;
+    position: relative;
+    transition: all .8s ease;
+}
+
+.dark{
+    color: #fff;
+}
+
+.light{
+    color: #6809E1;
+}
+
+#search-container h1{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+#search-container span{    
+    font-weight: 700;
+}
+
+#search-container img{
+    width: 80%;
+}
+
+@media screen and (min-width:768px){
+    #search-container h1{
+        font-size: 25px;
+    }
+
+    #search-container img{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:900px){
+    #search-container h1{
+        font-size: 36px;
+    }
+}
