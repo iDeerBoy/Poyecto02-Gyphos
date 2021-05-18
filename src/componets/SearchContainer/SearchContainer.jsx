@@ -2,7 +2,7 @@ import './SearchContainer.css'
 import ilustrationHeader from '../../img/ilustra header.svg';
 import Search from '../search/Search';
 
-function SearchContainer({stateDark}){
+function SearchContainer({stateDark, search, setSearch, searchGif, suggestions, clickSuggestion}){
     return (
         <section 
           id="search-container"
@@ -10,7 +10,14 @@ function SearchContainer({stateDark}){
           >
             <h1>¡Inspirate y busca los mejores <span>GIFS</span>!</h1>
             <img src={ilustrationHeader} alt="ilustrationHeader"/>
-            <Search stateDark={stateDark}/>
+            <Search 
+              stateDark={stateDark}
+              search={search}
+              setSearch={setSearch}
+              searchGif={searchGif}
+              suggestions={suggestions}
+              clickSuggestion={clickSuggestion}
+            />
     </section>
   )
 }

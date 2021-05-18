@@ -19,6 +19,7 @@
 
 #results .results-container{
     width: 100%;
+    min-height: 35vh;
     padding: 20px 5%;
     transition: all .8s ease;
     display: flex;
@@ -44,7 +45,14 @@
 }
 
 #results .results-container img{
-    width: 50%;
+    width: 90%;
+}
+
+#gif {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    border: none;
 }
 
 @media screen and (min-width:768px){

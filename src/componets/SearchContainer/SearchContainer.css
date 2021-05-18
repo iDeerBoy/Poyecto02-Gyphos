@@ -1,7 +1,11 @@
 #search-container{
     width: 100%;
+    margin-bottom: 50px;
     position: relative;
     transition: all .8s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dark{
@@ -27,6 +31,11 @@
 }
 
 @media screen and (min-width:768px){
+
+    #search-container{
+        margin-bottom: 65px;
+    }
+
     #search-container h1{
         font-size: 25px;
     }
